@@ -1,0 +1,9 @@
+#!/bin/bash
+#picom --experimental-backend -b &
+xsetroot -cursor_name left_ptr & 
+# xrandr --output DVI-D-0 --mode 1280x1024 --rate 75.02 --right-of DisplayPort-2 &
+#feh --bg-fill ~/Wallpapers/Fedora-Catppuccin-4k.png &
+# xwinwrap -ov -g 1280x1024+2560+0 -- mpv -wid WID ~/Wallpapers/TheBatman-VideoWallpaper.mp4 --screen=1 --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings &
+#blugon &
+dunst &
+export QT_QPA_PLATFORMTHEME="qt5ct"
